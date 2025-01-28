@@ -10,11 +10,11 @@ export default function Navbar({ className }: { className?: string }){
     return(
         <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
             <Menu setActive={setActive}>
-                <link href="#">
+                <Link href="#">
                   <MenuItem setActive={setActive} active={active} item="Home">
 
                   </MenuItem>
-                  </link>
+                  </Link>
                   <MenuItem setActive={setActive} active={active} item="Our Courses ">
                   <div className="flex flex-col space-v-4 text-small ">
 
@@ -27,12 +27,12 @@ export default function Navbar({ className }: { className?: string }){
                   <HoveredLink href="/courses">All Courses</HoveredLink>
                   </div>
                   </MenuItem>
-                  <link href="/contact">
+                  <Link href="/contact">
                   <MenuItem setActive={setActive} active={active} item="Contact Us">
                   
                   </MenuItem>
                   
-                  </link>
+                  </Link>
                 
             </Menu>
         </div>
