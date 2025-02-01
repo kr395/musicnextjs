@@ -1,6 +1,7 @@
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 import Testimonials from "@/components/Testimonials";
+import UpcomingWebinars from "@/components/UpcomingWebiners";
 import WhyUS from "@/components/WhyUS";
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <FeaturedSection/>
       <WhyUS/>
       <Testimonials/>
+      <UpcomingWebinars/>
     </main>
   );
 }
